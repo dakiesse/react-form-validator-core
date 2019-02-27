@@ -94,7 +94,7 @@ class ValidatorComponent extends React.Component {
                     this.invalid.push(key);
                 }
             });
-            if (!dryRun) {
+            if (!dryRun && this.ref) {
                 this.setState({ isValid: valid }, () => {
                     this.props.validatorListener(this.state.isValid);
                 });
