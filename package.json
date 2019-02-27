@@ -8,10 +8,6 @@
     "prepublish": "npm run build",
     "lint": "eslint src/**"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NewOldMax/react-form-validator-core.git"
-  },
   "keywords": [
     "react",
     "form",
